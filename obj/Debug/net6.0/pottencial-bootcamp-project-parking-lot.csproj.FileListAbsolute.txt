@@ -1,0 +1,15 @@
+/home/fernando/dev/pottencial-bootcamp/02-solutions/pottencial-bootcamp-project-parking-lot/bin/Debug/net6.0/pottencial-bootcamp-project-parking-lot
+/home/fernando/dev/pottencial-bootcamp/02-solutions/pottencial-bootcamp-project-parking-lot/bin/Debug/net6.0/pottencial-bootcamp-project-parking-lot.deps.json
+/home/fernando/dev/pottencial-bootcamp/02-solutions/pottencial-bootcamp-project-parking-lot/bin/Debug/net6.0/pottencial-bootcamp-project-parking-lot.runtimeconfig.json
+/home/fernando/dev/pottencial-bootcamp/02-solutions/pottencial-bootcamp-project-parking-lot/bin/Debug/net6.0/pottencial-bootcamp-project-parking-lot.dll
+/home/fernando/dev/pottencial-bootcamp/02-solutions/pottencial-bootcamp-project-parking-lot/bin/Debug/net6.0/pottencial-bootcamp-project-parking-lot.pdb
+/home/fernando/dev/pottencial-bootcamp/02-solutions/pottencial-bootcamp-project-parking-lot/obj/Debug/net6.0/pottencial-bootcamp-project-parking-lot.csproj.AssemblyReference.cache
+/home/fernando/dev/pottencial-bootcamp/02-solutions/pottencial-bootcamp-project-parking-lot/obj/Debug/net6.0/pottencial-bootcamp-project-parking-lot.GeneratedMSBuildEditorConfig.editorconfig
+/home/fernando/dev/pottencial-bootcamp/02-solutions/pottencial-bootcamp-project-parking-lot/obj/Debug/net6.0/pottencial-bootcamp-project-parking-lot.AssemblyInfoInputs.cache
+/home/fernando/dev/pottencial-bootcamp/02-solutions/pottencial-bootcamp-project-parking-lot/obj/Debug/net6.0/pottencial-bootcamp-project-parking-lot.AssemblyInfo.cs
+/home/fernando/dev/pottencial-bootcamp/02-solutions/pottencial-bootcamp-project-parking-lot/obj/Debug/net6.0/pottencial-bootcamp-project-parking-lot.csproj.CoreCompileInputs.cache
+/home/fernando/dev/pottencial-bootcamp/02-solutions/pottencial-bootcamp-project-parking-lot/obj/Debug/net6.0/pottencial-bootcamp-project-parking-lot.dll
+/home/fernando/dev/pottencial-bootcamp/02-solutions/pottencial-bootcamp-project-parking-lot/obj/Debug/net6.0/refint/pottencial-bootcamp-project-parking-lot.dll
+/home/fernando/dev/pottencial-bootcamp/02-solutions/pottencial-bootcamp-project-parking-lot/obj/Debug/net6.0/pottencial-bootcamp-project-parking-lot.pdb
+/home/fernando/dev/pottencial-bootcamp/02-solutions/pottencial-bootcamp-project-parking-lot/obj/Debug/net6.0/pottencial-bootcamp-project-parking-lot.genruntimeconfig.cache
+/home/fernando/dev/pottencial-bootcamp/02-solutions/pottencial-bootcamp-project-parking-lot/obj/Debug/net6.0/ref/pottencial-bootcamp-project-parking-lot.dll
