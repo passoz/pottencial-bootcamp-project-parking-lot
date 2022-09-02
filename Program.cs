@@ -24,30 +24,40 @@ while(!getOut){
 
     string plate = "";
 
-    switch (Console.ReadLine())
+    ConsoleKeyInfo input = Console.ReadKey();
+
+    switch (input.Key)
     {
-        case("1"):
-            Console.WriteLine("Digite a placa do veículo para estacionar: ");
+        case(ConsoleKey.D1):
+        case(ConsoleKey.NumPad1):
+            Console.Clear();
+            Console.Write("Digite a placa do veículo para estacionar: ");
             plate = Console.ReadLine();
             Vehicle vehicle = new Vehicle(plate, initial, perHour);
             park.Vehicles.Add(vehicle);
+            Console.Clear();
             break;
-        case("2"):
-            Console.WriteLine("Informe a placa do veículo para remover: ");
+        case(ConsoleKey.D2):
+        case(ConsoleKey.NumPad2):
+            Console.Clear();
+            Console.Write("\nInforme a placa do veículo para remover: ");
             plate = Console.ReadLine();
             Console.Clear();
             for(int i = 0 ; i < park.Vehicles.Count ; i++){
                 if(park.Vehicles[i].plate == plate){
                     int hours = 0;
-                    Console.Write("Informe a quantidade de horas: ");
+                    Console.Write("Informe a quantidade de horas que o veículo permaneceu estacionado: ");
                     int.TryParse(Console.ReadLine(), out hours);
                     park.Vehicles[i].hours = hours;
-                    Console.WriteLine("\nO preço foi de R${0}\n", park.Vehicles[i].getPrice());
+                    Console.WriteLine("\nO veículo {0} foi removido e o preço foi de R$ {1}\n", plate, park.Vehicles[i].getPrice());
                     park.Vehicles.RemoveAt(i);
                 }
             }
             break;
-        case("3"):
+        case(ConsoleKey.D3):
+        case(ConsoleKey.NumPad3):
+        Console.Clear();
+        Console.WriteLine("Veículos no estacionamento: ");
             foreach (var item in park.Vehicles)
             {
                 Console.WriteLine(item.plate);
@@ -55,8 +65,10 @@ while(!getOut){
             Console.WriteLine("\nPressione enter para continuar...");
             Console.ReadLine();
             break;
-        case("4"):
-            Console.WriteLine("Saindo do programa.");
+        case(ConsoleKey.D4):
+        case(ConsoleKey.NumPad4):
+        Console.Clear();
+            Console.WriteLine("Saindo do programa...");
             Environment.Exit(0);
             break;
         default:
